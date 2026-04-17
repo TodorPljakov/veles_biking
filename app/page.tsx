@@ -1,0 +1,18 @@
+import { Header } from "@/components/header"
+import { Footer } from "@/components/footer"
+import { Feed } from "@/components/feed"
+
+export default function Home() {
+  return (
+    <div className="flex min-h-screen flex-col">
+      
+      <main className="flex-1 py-6">
+        <div className="mx-auto max-w-2xl px-4">
+          <Feed />
+        </div>
+      </main>
+
+      <Footer />
+    </div>
+  )
+}
